@@ -4,7 +4,7 @@ export default function About(){
         <>
         <div>
             <div style={{width: "50%", float: "left"}}>
-                <img src="src\assets\headshot.jpg" width="400"></img>
+                <img src="headshot.jpg" width="400"></img>
             </div>
             <div style={{width: "50%", float: "right"}}>
             <h2>About Me</h2>
