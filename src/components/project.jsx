@@ -1,3 +1,4 @@
+//project.jsx Allison Ives 301283511 05/31/2024
 import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
