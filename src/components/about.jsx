@@ -4,7 +4,7 @@ export default function About(){
         <>
         <div>
             <div style={{width: "50%", float: "left"}}>
-                <img src="src\photos\headshot.jpg" width="400"></img>
+                <img src="src\headshot.jpg" width="400"></img>
             </div>
             <div style={{width: "50%", float: "right"}}>
             <h2>About Me</h2>
@@ -14,10 +14,10 @@ export default function About(){
                  Over the last 8 years, I have presented at conferences and workshops including the Niagara Leadership Summit for Women and the
                   Canadian Conference on Student Leadership. I am presently working in the luxury beauty industry.</p>
             <hr></hr>
-            <a href="src\photos\Resume.pdf" target="blank">Resume</a>
+            <a href="src\Resume.pdf" target="blank">Resume</a>
             <div style={{display: "flex", justifyContent: "center", marginTop: "4em"}}>
-            <img src="src\photos\goodman.jpg" width="150" height="150" style={{paddingRight:"1.5em"}}></img>
-            <img src="src\photos\cencol.png" width="150" style={{paddingLeft:"1.5em"}}></img>
+            <img src="src\goodman.jpg" width="150" height="150" style={{paddingRight:"1.5em"}}></img>
+            <img src="src\cencol.png" width="150" style={{paddingLeft:"1.5em"}}></img>
             </div>
             </div>
         </div>
