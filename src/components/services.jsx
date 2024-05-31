@@ -16,8 +16,15 @@ export default function Services() {
         );};
     return(
         <>
-        <h3>Services</h3>;
-        <ServiceList services={services} />
+        <div style={{display:"flex",alignContent:"justify",width:"786px"}}>
+            <div style={{margin:"1em",width:"50%"}}>
+                <h2>Services</h2>
+                <ServiceList services={services} />
+            </div>
+            <div style={{backgroundColor:"#e6d2ff",width:"50%"}}>
+            <img src="src\photos\conference.jpg" width="200" style={{padding:"1em 0 1em 0"}}></img>
+            </div>
+        </div>
         </>
         );
 };

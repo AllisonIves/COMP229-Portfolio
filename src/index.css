@@ -40,11 +40,14 @@ h1 {
   line-height: 1.1;
   color: #3f275c
 }
+h2{
+  color:#3f275c;
+}
 h3 {
   font-family: "Sedan SC", serif;
   font-size: 1.4em;
   font-style: italic;
-  color: #3f275c;
+  color: #374A67;
 }
 
 button {
