@@ -1,9 +1,25 @@
 export default function About(){
     return(
         <>
-        <h3>About Me</h3>
-        <img src="src\photos\headshot.jpg" width="500"></img>
-        <p>I am a software engineering student with a Bachelor's degree in business. I am presently working in the luxury beauty industry and have extensive experience in retail management.</p>
+        <div>
+            <div style={{width: "50%", float: "left"}}>
+                <img src="src\photos\headshot.jpg" width="400"></img>
+            </div>
+            <div style={{width: "50%", float: "right"}}>
+            <h2>About Me</h2>
+            <h3>My name is Allison Ives</h3>
+            <p>I am a software engineering student with a Bachelor's degree in Business Administration.
+                During my undergraduate studies, I concentrated on human resources management and organizational behaviour.
+                 Over the last 8 years, I have presented at conferences and workshops including the Niagara Leadership Summit for Women and the
+                  Canadian Conference on Student Leadership. I am presently working in the luxury beauty industry.</p>
+            <hr></hr>
+            <a href="src\photos\Resume.pdf" target="blank">Resume</a>
+            <div style={{display: "flex", justifyContent: "center", marginTop: "4em"}}>
+            <img src="src\photos\goodman.jpg" width="150" height="150" style={{paddingRight:"3em"}}></img>
+            <img src="src\photos\cencol.png" width="150" style={{paddingLeft:"3em"}}></img>
+            </div>
+            </div>
+        </div>
         </>
     );
 }
